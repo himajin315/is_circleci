@@ -1,5 +1,5 @@
 require "is_circleci/version"
 
-module IsCircleci
-  # Your code goes here...
+def circleci?
+  !!ENV['CIRCLECI']
 end
