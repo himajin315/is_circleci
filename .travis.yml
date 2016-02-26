@@ -1,0 +1,2 @@
+script:
+  - bundle exec ruby -I lib -r is_circleci -e 'raise if circleci?'
